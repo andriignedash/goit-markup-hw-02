@@ -141,7 +141,11 @@ h3 {
    line-height: 1.5;
 }
 
-.hero-image-button:hover, .hero-image-button:focus {
+.hero-image-button:hover {
+  background-color: #404BBF;
+}
+
+.hero-image-button:focus {
   background-color: #404BBF;
 }
 
