@@ -102,7 +102,10 @@ h3 {
   color: var(--text-color);
 }
 
-.contacts-item:hover,
+.contacts-item:hover {
+  color: #404bbf;
+}
+
 .contacts-item:focus {
   color: #404bbf;
 }
