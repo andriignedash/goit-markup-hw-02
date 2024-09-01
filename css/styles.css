@@ -103,7 +103,7 @@ h3 {
 }
 
 .contacts-item:hover,
-.contacts-item:hover {
+.contacts-item:focus {
   color: #404bbf;
 }
 
