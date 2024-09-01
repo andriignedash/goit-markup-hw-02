@@ -79,7 +79,8 @@ h3 {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: currentColor;
+  color: #2e2f42;
+  line-height: 1.5;
 }
 
 .menu-item:hover,
@@ -137,10 +138,11 @@ h3 {
   font-weight: 500;
   letter-spacing: 0.04em;
   font-family: var(--primary-font);
+   line-height: 1.5;
 }
 
 .hero-image-button:hover, .hero-image-button:focus {
-  background-color: var(--pressed-state-color);
+  background-color: #404BBF;
 }
 
 .about-company {
@@ -150,6 +152,16 @@ h3 {
 .features {
   margin: 0 auto;
   list-style: none;
+}
+
+.feature-item-title {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.feature-item-text {
+    line-height: 1.5;
 }
 
 .team {
@@ -164,7 +176,7 @@ h3 {
   line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-
+   color: #2e2f42;
 }
 
 .team-list {
@@ -186,10 +198,13 @@ h3 {
 .team-list-name {
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
 .team-list-job {
   color: var(--text-color);
+  line-height: 1.5;
 }
 
 .portfolio {
@@ -207,6 +222,7 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-list {
@@ -221,11 +237,15 @@ h3 {
 }
 
 .portfolio-item-title {
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item-type {
   color: var(--text-color);
+  line-height: 1.5;
 }
 
 .footer {
